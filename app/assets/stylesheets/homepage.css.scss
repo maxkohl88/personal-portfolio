@@ -1,0 +1,16 @@
+.homepage-container {
+  background-image: 
+    linear-gradient(#54caff, white);
+
+  #profile-picture {
+    $border-radius: 50%;
+
+    max-width: 20%;
+    max-height: auto;
+    display: block;
+    margin: 0 auto;
+    moz-border-radius: $border-radius;
+    webkit-border-radius: $border-radius;
+    border-radius: $border-radius;
+  }
+}
