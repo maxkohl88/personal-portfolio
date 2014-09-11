@@ -1,17 +1,25 @@
-.homepage-header {
-  background-image: 
-    linear-gradient(#54caff, white);
-  padding: 1em;
+.homepage-container {
+  font-family: 'Josefin Sans', sans-serif;
 
-  #profile-picture {
-    $border-radius: 50%;
+  .homepage-header {
+    background-image: 
+      linear-gradient(#54caff, white);
+    padding: 1em;
 
-    max-width: 16em;
-    max-height: auto;
-    display: block;
-    margin: 0 auto;
-    moz-border-radius: $border-radius;
-    webkit-border-radius: $border-radius;
-    border-radius: $border-radius;
+    #profile-picture {
+      $border-radius: 50%;
+
+      max-width: 16em;
+      max-height: auto;
+      display: block;
+      margin: 0 auto;
+      moz-border-radius: $border-radius;
+      webkit-border-radius: $border-radius;
+      border-radius: $border-radius;
+    }
+  }
+
+  .main-body-container {
+    text-align: center;
   }
 }
