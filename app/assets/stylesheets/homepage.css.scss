@@ -39,7 +39,16 @@
         font-size: 1.2em;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: bold;
+        outline: none;
       }
+
+      .clicked-button {
+        background-color: orange;
+      }
+    }
+
+    .info-container {
+      display: none;
     }
   }
 }
