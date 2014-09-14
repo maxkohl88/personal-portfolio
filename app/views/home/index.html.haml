@@ -2,11 +2,21 @@
   .homepage-header
     =image_tag "maxkheadshotcropped.png", id: 'profile-picture'
   .main-body-container
-    %h1 Hi, I'm Max.
+    .welcome-container
+      %h1 Hi, I'm Max.
+      %p.summary 
+        I'm a full stack developer for hire.
+      %p.thanks
+        Thanks for visiting!  
     .button-container
       %button.info My Info
       %button.work My Work
-    .info-container
-      %span.work Omaha! is an interactive tutorial on the pre-snap strategy of an American Football Quarterback. While tutorial mode is still in development, the "play" page allows a user to simulate an NFL® play.
-      %span.stack Stack: Ruby on Rails, AngularJS, CoffeeScript, Snap.svg 
-      %span.info Creative full stack developer. Focused on creating enjoyable web experiences for all.
+    .display-container
+      .info-container 
+        %span.info Creative full stack developer. Focused on creating enjoyable web experiences for all.
+      .work-container
+        %h2 Omaha!
+        =image_tag "omaha-field-aerial.png", id: 'omaha-aerial'
+        %span.work Omaha! is an interactive tutorial on the pre-snap strategy of an American Football Quarterback. While tutorial mode is still in development, the "play" page allows a user to simulate an NFL® play.
+        %span.stack Stack: Ruby on Rails, AngularJS, CoffeeScript, Snap.svg
+
