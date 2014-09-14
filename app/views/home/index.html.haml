@@ -9,15 +9,26 @@
       %p.thanks
         Thanks for visiting!  
     .button-container
-      %button.info My Info
-      %button.work My Work
+      %button.info About/Get in touch
+      %button.work My work
     .display-container
-      .info-container 
-        %span.info Creative full stack developer. Focused on creating enjoyable web experiences for all.
+      .info-container
+        %p.skills
+          Proficient in: Ruby on Rails, JavaScript, jQuery, AJAX, CoffeeScript, Haml, SCSS
+        %p.learning
+          Sharpening my skills with: AngularJS, Snap.svg, CSS3
+        %ul.info
+          %li.github 
+            %a{ href:'http://www.github.com/maxkohl88', target: '_blank'} Github
+          %li.twitter
+            %a{ href:'http://www.twitter.com/maxkohl', target: '_blank'} Twitter
+          %li.linkedin
+            %a{ href:'http://www.linkedin.com/pub/max-kohl/9/172/587', target: '_blank' } Linkedin
+          %li.email
+            %a{ href:'mailto:maxkohl810@gmail.com', target: '_blank' } Email
       .work-container
         %h2 Omaha!
         %p.work Omaha! is an interactive tutorial on the pre-snap strategy of an American Football Quarterback. While tutorial mode is still in development, the "play" page allows you to simulate an NFL® play.
         =link_to image_tag("omaha-field-aerial.png"), 'http://omaha-training.herokuapp.com', target: '_blank', id: 'omaha-link'
         %span (click on image to visit the site)
         %p.stack Stack: Ruby on Rails, AngularJS, CoffeeScript, Snap.svg
-

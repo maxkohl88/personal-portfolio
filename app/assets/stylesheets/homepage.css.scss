@@ -72,7 +72,21 @@
     .display-container {
 
       .info-container {
-        display: none;
+        // display: none;
+        .info {
+          list-style-type: none;
+          display: inline-flex;
+          padding-left: none;
+          max-width: 10em;
+          margin: 0 auto;
+
+          li {
+            margin: 5em;
+            a {
+              text-decoration: none;
+            }
+          }
+        }
       }
 
       .work-container {
