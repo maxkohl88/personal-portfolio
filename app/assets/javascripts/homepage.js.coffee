@@ -5,8 +5,8 @@ homepageApp =
   initialize: () ->
     $('button.work').click ->
       $(this).toggleClass 'clicked-button'
-      $('span.work').toggle()
+      $('.work-container').toggle()
 
     $('button.info').click ->
       $(this).toggleClass 'clicked-button'
-      $('span.info').toggle()
+      $('.info-container').toggle()
