@@ -76,15 +76,18 @@
         .info {
           list-style-type: none;
           display: inline-flex;
-          padding-left: none;
-          max-width: 10em;
+          padding-left: 0;
+          max-width: 100%;
           margin: 0 auto;
 
           li {
-            margin: 5em;
+            width: 8em;
             a {
               text-decoration: none;
             }
+          }
+          .list-hover {
+            background-color: rgba(245, 113, 0, 0.55);
           }
         }
       }

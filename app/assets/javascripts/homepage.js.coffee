@@ -10,3 +10,6 @@ homepageApp =
     $('button.info').click ->
       $(this).toggleClass 'clicked-button'
       $('.info-container').toggle()
+
+    $('.info').children('li').hover ->
+      $(this).toggleClass 'list-hover'
