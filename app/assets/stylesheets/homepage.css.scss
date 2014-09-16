@@ -99,7 +99,7 @@
           }
           .list-hover {
             $hover-radius: 2em;
-            background-color: rgba(245, 113, 0, 0.55);
+            background-color: rgba(126, 215, 255, 0.85);
             moz-border-radius: $hover-radius;
             webkit-border-radius: $hover-radius;
             border-radius: $hover-radius;
@@ -116,6 +116,7 @@
         height: 0.7em;
         background-color: black;
         margin: 0 auto;
+        margin-top: 3em;
       }
 
       .work-container {
@@ -138,17 +139,22 @@
 
         .work {
           margin: 2em;
+          font-size: 1.3em;
+        }
+
+        .records {
+          font-size: 1.3em;
         }
 
         .stack {
           margin-top: 3em;
+          margin-bottom: 0em;
           font-size: 1.15em;
         }
 
         .work-omaha {
           max-width: 25em;
           margin: 0 auto;
-
         }
       }
     }
