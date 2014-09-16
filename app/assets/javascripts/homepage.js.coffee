@@ -13,3 +13,4 @@ homepageApp =
 
     $('.info').children('li').hover ->
       $(this).toggleClass 'list-hover'
+      $(this).children('a').toggleClass 'link-hover'
